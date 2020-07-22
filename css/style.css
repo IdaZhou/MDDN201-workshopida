@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: Helvetica, Arial, sans-serif;
+	background-color:#C6BB77;
+	color: #75511e;
+}
+
+section{
+	max-width: 100%;
+	margin-left: 180px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+section p, section h1{
+max-width: 60%;
+margin-left: 40px;
+}
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+	margin: 20px;
+
+}
+
+
+.show{
+	/*border: 1px;*/
+	/*padding: 2px #858D92;
+*/
+}
+
+.padded{
+	/*padding: 20px;*/
+}
+
+
+.sidenav {
+	width: 100%;
+	z-index: 1;
+	background-color: #929085;
+	overflow-x: hidden;
+
+}
+.sidenav a {
+	padding: 20px 10px;
+	text-decoration: none; 
+	color: #fff;
+	display: inline-block;
+	width: 19%;
+	font-size: 20px;
+}
+
+.sidenav a:hover{
+	/*color: #85928A;*/
+	background-color: #fff;
+}*/
+
+.topHeader {
+	color: #0256a6; 
+  	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.topHeader p, .topHeader h1{
+	max-width: 1000px;
+	margin-left: 180px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.categoryHeader{
+ 	background-color: #85928A;
+	color: #fff;
+ 	padding: 10px;
+	border-radius: 0px 0px 50px 0px
+}
+
